@@ -100,11 +100,9 @@
 							ast.push(recursiveAstBuilder(item[key]));
 						}
 
-
 						// And return
 						return ast;
 					}
-
 				}
 
 				// Case 3: The item empty string
